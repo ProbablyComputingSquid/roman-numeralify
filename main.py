@@ -1,14 +1,14 @@
 ####
 # ROMAN NUMERAL FINDER (all original code by @ComputingSquid on replit @ProbablyComputingSquid on github)
 # NO DEPENDENCIES!!!
-# Supports numbers--with commas--up to 1,399,999
+# Supports numbers, including numbers with commas up to 1,399,999
 # Use with credit please
 # or dont, i don't really care, and I wouldn't know anyways
 ####
 
 # constants (ansi codes)
 ol = "\033[53m"
-dl = u"\u033f" # unused 
+dl = u"\u033f" # unused, unicode combining overline 
 BOLD = "\033[1m"
 RESET = "\033[0m"
 red = "\033[31;1;4m"
